@@ -1,0 +1,8 @@
+student=input('enter the name:')
+cprogram=int(input('cprogram marks:'))
+fundmentals=int(input('fundmentals marks:'))
+maths=int(input('maths marks:'))
+if(cprogram>=35 and fundamentals>=35 and maths>=35):
+    print('pass')
+else:
+    print('fail')
